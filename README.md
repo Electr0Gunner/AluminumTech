@@ -1,2 +1,2 @@
 # AluminumTech
-An Open Source Game Engine written in C++
+AluminumTech (or ALTech for short) is an Open Source game engine written in C++
