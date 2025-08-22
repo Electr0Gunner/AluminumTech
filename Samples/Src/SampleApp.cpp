@@ -7,7 +7,7 @@ class SampleApp : public ALTech::Application
 public:
     SampleApp(const ALTech::ApplicationInitData& init_data) : ALTech::Application(init_data)
     {
-        printf("ALTech");
+
     }
 
     ~SampleApp()

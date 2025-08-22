@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 3.13.0)
 project(AluminumTech VERSION 0.1.0 LANGUAGES C CXX)
+set(CMAKE_CXX_STANDARD 20)
 
 option(ALTECH_SHARED_BUILD  "Build AluminumTech as a shared library" ON)
 option(ALTECH_SAMPLES  "Build AluminumTech Samples" ON)

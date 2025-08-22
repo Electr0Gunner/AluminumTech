@@ -1,6 +1,9 @@
 #pragma once
 
-#include "ALTech/Core.hpp"
-#include "ALTech/EntryPoint.hpp"
+// ----- Application -----
+#include "ALTech/Core/Core.hpp"
+#include "ALTech/Core/Debug.hpp"
+#include "ALTech/Core/Log.hpp"
 
-#include "ALTech/Application.hpp"
+#include "ALTech/Core/EntryPoint.hpp"
+#include "ALTech/Core/Application.hpp"
