@@ -1,6 +1,5 @@
-cmake_minimum_required(VERSION 3.13.0)
+cmake_minimum_required(VERSION 3.21.0)
 project(AluminumTech VERSION 0.1.0 LANGUAGES C CXX)
-set(CMAKE_CXX_STANDARD 20)
 
 option(ALTECH_SHARED_BUILD  "Build AluminumTech as a shared library" ON)
 option(ALTECH_SAMPLES  "Build AluminumTech Samples" ON)
@@ -31,6 +30,8 @@ if(ALTECH_SHARED_BUILD)
 else()
     add_library(AluminumTech STATIC ALTech.hpp ${ALTech_SRC} ${ALTech_HEADER})
 endif()
+
+target_compile_features(AluminumTech PUBLIC cxx_std_20)
 
 if(ALTECH_SAMPLES)
 add_subdirectory(Samples)

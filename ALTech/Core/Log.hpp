@@ -5,8 +5,9 @@
 
 namespace ALTech::Logger
 {
-    enum LogLevel
+    enum class LogLevel
     {
+        LEVEL_NONE = 0,
         LEVEL_INFO,
         LEVEL_DEBUG,
         LEVEL_WARNING,
